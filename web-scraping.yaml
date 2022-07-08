@@ -1,3 +1,6 @@
+server:
+  port: 0
+
 scrap:
   shoushi:
     url: https://sscars.com.tw/car234

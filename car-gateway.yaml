@@ -1,0 +1,23 @@
+server:
+  port: 8087
+
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: car-gateway-${random.value}
+  client:
+    service-url:
+      defaultZone: http://localhost:8011/eureka
