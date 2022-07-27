@@ -2,12 +2,12 @@
 spring:
   kafka:
     producer:
-      bootstrap-servers: theta-kafka-0-external:9040
+      bootstrap-servers: theta-kafka-0-external:9040,theta-kafka-1-external:9040,theta-kafka-2-external:9040
     consumer:
-      bootstrap-servers: theta-kafka-0-external:9040
+      bootstrap-servers: theta-kafka-0-external:9040,theta-kafka-1-external:9040,theta-kafka-2-external:9040
     admin:
       properties:
-        bootstrap.servers: theta-kafka-0-external:9040
+        bootstrap.servers: theta-kafka-0-external:9040,theta-kafka-1-external:9040,theta-kafka-2-external:9040
   data:
     mongodb:
       database: grep-car-info
