@@ -1,6 +1,6 @@
 server:
-  port: 0
+  port: 8093
 
 scrap:
   shoushi:
-    url: https://sscars.com.tw/car234
+    url: https://sscars.com.tw/car

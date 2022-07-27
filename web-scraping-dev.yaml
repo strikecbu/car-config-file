@@ -1,3 +1,11 @@
 scrap:
   shoushi:
     url: https://sscars.com.tw/car
+
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: localhost:29092,localhost:29093,localhost:29094
+    admin:
+      properties:
+        bootstrap.servers: localhost:29092,localhost:29093,localhost:29094
