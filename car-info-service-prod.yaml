@@ -1,4 +1,7 @@
-
+carinfo:
+  schedule:
+    scrape-car:
+      fixedDelay: 3600000
 spring:
   kafka:
     producer:
