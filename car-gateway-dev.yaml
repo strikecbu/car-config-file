@@ -5,9 +5,6 @@ management:
         include: "*"
 
 eureka:
-  instance:
-    prefer-ip-address: true
-    instance-id: car-gateway-${random.value}
   client:
     service-url:
       defaultZone: http://localhost:8011/eureka
