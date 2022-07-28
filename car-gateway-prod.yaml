@@ -15,7 +15,7 @@ spring:
       globalcors:
         cors-configurations:
           '[/**]':
-            allowedOrigins: "https://andycode.dev"
+            allowedOrigins: "https://andycode.dev,http://fake.com/"
             allowedHeaders: "*"
             allowedMethods:
               - GET
