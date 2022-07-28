@@ -9,6 +9,19 @@ eureka:
     service-url:
       defaultZone: http://car-eureka-service:8011/eureka
 
+spring:
+  cloud:
+    gateway:
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "https://andycode.dev"
+            allowedHeaders: "*"
+            allowedMethods:
+              - GET
+              - POST
+              - OPTIONS
+
 firebase:
   config:
     privatekeyid: ""
